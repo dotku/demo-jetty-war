@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <move todir="C:\www\dotku.github.io\tech\java-maven\demo-war-running\target/pdfcompare/">
+    <fileset dir="C:\www\dotku.github.io\tech\java-maven\demo-war-running\target/classes/">
+      <include name="CompareLuncher.class"/>
+    </fileset>
+  </move>
+</target>
+</project>
